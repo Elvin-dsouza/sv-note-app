@@ -1,0 +1,35 @@
+body {
+    margin:0px;
+    background: rgb(36, 36, 36);
+    font-family: 'Consolas', 'Sans-serif';
+}
+article.markdown {
+    color:white;
+}
+
+article.markdown strong, em {
+    color:white;
+}
+
+article.markdown h1 {
+    color:white;
+    font-weight: 600;
+    padding-bottom:10px;
+    padding-top:5px;
+    border-bottom: 1px solid white;
+    
+}
+
+article.markdown blockquote {
+    background:#212121;
+    border-left: 6px solid darkgrey;
+    padding:20px;
+    margin-left:0;
+}
+
+article.markdown code {
+    background:#37474F;
+    border-radius:10px;
+    padding:10px;
+    display: inline-block;
+}
